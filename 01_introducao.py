@@ -1,12 +1,8 @@
-# Isso é um comentário
+# isso é um comentário 
 
-'''
-Isso é um 
-comentário de 
-varias linhas
-
-'''
 
 print('Olá São Paulo')
-print("Olá 'Fortaleza' Ceara")
+print("Olá São Paulo")
+print("Ola 'Fortaleza' Ceara")
+
 

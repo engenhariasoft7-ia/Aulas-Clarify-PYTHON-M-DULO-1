@@ -1,22 +1,26 @@
-# Objeto
-# Tudo é um Objeto
-"""  Trabalhando com tipos e Variaveis  """
+"""Trabalhando com tipos e Variaveis """
 
-nome = "Marcelo" # String
-sobrenome = 'Gomes de Lima'
+nome = "Byanca" # string
+sobrenome = 'Santos Moura'
 outronome = nome
-idade = 30 # Valor Inteiro
-altura = 1.86
+idade = 17  # valor inteiro
+altura = 1.60
 bermuda = False # boolean
 calca = True
-textovariaslinhas = '''
+
+
+# exibir o conteudo da variavel
+print(nome)
+print(nome + " " +sobrenome + "tem" + str(idade) + "anos." )
+
+
+print(idade + 2)
+
+
+textoVariasLinhas = '''
 uma linha
 outra linha
 mais uma
 '''
 
-# exibir o conteudo da variavel
-print(outronome)
-print(outronome + " " + sobrenome + " tem " + str(idade) + " anos.")
-print(idade + 2)
-print(textovariaslinhas)
+print(textoVariasLinhas)

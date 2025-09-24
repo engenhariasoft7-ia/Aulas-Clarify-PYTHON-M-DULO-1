@@ -1,34 +1,32 @@
 
-
-tipoEscola = input("Estuda em colegio: \n [1]Publico\n[2]Particular\n")
-nomeAluno = input('Qual o nome do aluno? \n')
-mediaAluno = int(input('Qual a média do aluno' + " " + nomeAluno + "? \n"))
-freqAluno = int(input("Qual a frequencia do aluno " + nomeAluno + "?\n"))
+tipoEscola = input("Estuda em colegio: \n [1] Publico\n[2]Particular\n")
+nomeAluno = input('qual o nome do aluno?')
+mediaAluno = int(input("Qual a media do aluno?" + nomeAluno + "?\n" ))
+freqAluno = int(input("Qual a media do aluno?" + nomeAluno + "?\n" ))
 
 '''
 != diferente
-== Igual
+== igual
 <= menor ou igual
 >= maior ou igual
-< Menor
-> Maior
+< menor
+> maior
 '''
+
+
 if tipoEscola == "2":
-    print("--------------------------------Escola Particular ------------------------------------")
+    print("------------Escola Particular-----------")
     if mediaAluno >= 7 and freqAluno >= 70:
-        status = "Aprovado"
+            status = "Aprovado"
     else:
-        status = 'Reprovado'
+        statu = 'Reprovado'
 
-    
 if tipoEscola == "1":
-    ("-------------------------------- Escola Publica ------------------------------------")
+    print("------------Escola Publica---------------")
     if mediaAluno >= 6 or freqAluno >= 70:
-        status = "Aprovado"
+     status ="Aprovado"
     else:
-        status = 'Reprovado'
-    
+     status = "Reprovado"            
 
-print('O Aluno ' + nomeAluno + " foi " + str(status) + " com média " + str(mediaAluno))
-print('O Aluno ' , nomeAluno , " foi " , status , " com média " , mediaAluno)
-print(f'O Aluno {nomeAluno} foi {status} com média {mediaAluno}')
+   
+print(f"O Aluno {nomeAluno} foi  {status}  com media   {mediaAluno}")       
